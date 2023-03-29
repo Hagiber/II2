@@ -20,6 +20,7 @@ public class ImperialImpactGame extends ApplicationAdapter {
 		ScreenUtils.clear(1, 0, 0, 1);
 		batch.begin();
 		batch.draw(img, 0, 0);
+		batch.draw(img, 300, 300);
 		batch.end();
 	}
 	
